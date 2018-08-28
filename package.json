@@ -1,0 +1,50 @@
+{
+  "name": "nextjs-demo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "egg": "^2.10.0",
+    "egg-nextjs": "^1.0.1",
+    "egg-scripts": "^2.9.1",
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "styled-jsx": "^3.0.2"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg-bin": "^4.8.3",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.19.6",
+    "eslint": "^5.4.0",
+    "eslint-config-egg": "^7.1.0",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "next" : "next dev",
+    "build" : "next build",
+    "start": "egg-scripts start --daemon --title=egg-server-nextjs-demo",
+    "stop": "egg-scripts stop --title=egg-server-nextjs-demo",
+    "dev": "next build && egg-bin dev",
+    "debug": "egg-bin debug",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "next build && npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "h1bomb",
+  "license": "MIT"
+}

@@ -2,6 +2,11 @@
 
 Use Next.js with Egg.js by egg-nextjs
 
+[![build status][travis-image]][travis-url]
+
+[travis-image]: https://travis-ci.org/h1bomb/egg-nextjs-demo.svg?branch=master
+[travis-url]: https://travis-ci.org/h1bomb/egg-nextjs-demo
+
 
 ## QuickStart
 

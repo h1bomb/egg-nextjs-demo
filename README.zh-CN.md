@@ -2,6 +2,10 @@
 
 使用 egg-nextjs插件，集成Next.js
 
+[![build status][travis-image]][travis-url]
+
+[travis-image]: https://travis-ci.org/h1bomb/egg-nextjs-demo.svg?branch=master
+[travis-url]: https://travis-ci.org/h1bomb/egg-nextjs-demo
 ## 快速入门
 
 ```javascript
